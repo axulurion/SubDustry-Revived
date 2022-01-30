@@ -1,0 +1,12 @@
+{
+  "type": "material",
+  "name": "Lithium",
+  "description": "Lithium is a material used for making plasteel (don't mistake for plastanium!) and enameled glass",
+  "color": "222222"
+  "flammability": 0,
+  "radioactivity": 0,
+  "explosivness": 0,
+  "hardness": 10,
+  "cost": 4,
+  "alwaysUnlock": false
+}

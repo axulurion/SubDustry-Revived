@@ -1,0 +1,26 @@
+{
+  "type": "GenericSmelter",
+  "name": "Plasteel Forge",
+  "description": "A factory, that makes Plasteel from Titanium and Lithium",
+  "itemCapacity": 10,
+  "health": 180,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 30,
+  "consumes": {
+    "items": {
+      "items": [
+        "titanium/5",
+        "lithium/2"
+      ]
+    }
+  },
+  "requirements": [
+    "lead/250",
+    "graphite/100"
+  ],
+  "category": "crafting",
+  "research": "alloy-smelter",
+  "outputItem": "plasteel/1"
+}

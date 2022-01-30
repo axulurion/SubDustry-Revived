@@ -1,0 +1,12 @@
+{
+  "type": "material",
+  "name": "Diamond",
+  "description": "A very tough material used in advanced fabrication",
+  "color": "21F0E3",
+  "flammability": 0,
+  "radioactivity": 0,
+  "explosivness": 0,
+  "hardness": 10,
+  "cost": 5,
+  "alwaysUnlock": false
+}

@@ -1,0 +1,33 @@
+{
+  "type": "Separator",
+  "name": "Uraninite Processing Plant",
+  "description": "Processes uraninite into uranium, though some might decay into thorium.",
+  "itemCapacity": 20,
+  "health": 270,
+  "size": 4,
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 600,
+  "consumes": {
+    "power": 5,
+    "items": {
+      "items": [
+        "uraninite/20"
+      ]
+    "liquid": {
+      "liquid": "cryofluid",
+      "amount": 2
+    },
+    "results": {
+      "uranium": "thorium"
+    },
+    }
+    "category": "crafting",
+    "research": "alloy-smelter",
+    "requirements": [
+      "lead/2500",
+      "titanium/1000",
+      "graphite/700"
+    ]
+  }
+}
