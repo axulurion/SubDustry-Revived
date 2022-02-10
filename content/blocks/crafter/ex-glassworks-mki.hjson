@@ -1,0 +1,33 @@
+{
+  "type": "genericCrafter",
+  "name": "Experimental Glassworks Mk I"
+  "description": "First tier of the experimental glassworks, produces metaglass with a less efficient process, but doesn't require lead."
+  "itemCapacity": 10,
+  "health": 180,
+  "size": 3,
+  "category": "crafting",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 45,
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+        "sand/3"
+      ]
+    },
+    "liquid": {
+      "liquid": "slag",
+      "amount": 0.1
+    }
+  },
+  "category": "crafting",
+  "requirements": [
+    "copper/250",
+    "lead/175",
+    "metaglass/50"
+  ],
+  "outputItem": "metaglass/2",
+  "craftEffect": "smokeCloud",
+  "research": "melter"
+}

@@ -1,0 +1,53 @@
+{
+  "type": "ItemTurret",
+  "name": "James"
+  "size": 3,
+  "health": 2700,
+  "range": 250,
+  "reloadTime": 20,
+  "shootSound": "lasershoot",
+  "ammoTypes": {
+    "thorium": {
+      "type": "BasicBulletType",
+      "speed": 5,
+      "damage": 50,
+      "lifetime": 120,
+      "width": 5,
+      "height": 15,
+      "shootEffect": "shootSmall",
+      "ammoMultiplier": 5,
+      "pierce": false
+    },
+    "uraninite": {
+      "type": "BasicBulletType",
+      "speed": 10,
+      "damage": 150,
+      "lifetime": 120,
+      "width": 10,
+      "height": 25,
+      "shootEffect": "shootSmall",
+      "ammoMultiplier": 1,
+      "pierce": true
+    }
+    "uranium": {
+    "type": "BasicBulletType",
+    "speed": 10,
+    "damage": 1500,
+    "lifetime": 300,
+    "width": 25,
+    "height": 50,
+    "shootEffect": "shootSmall",
+    "ammoMultiplier": 1,
+    "pierce": true
+    }
+  },
+  "requirements": [
+    "titanium/1500",
+    "lead/1250",
+    "enameled-glass/750",
+    "thorium/500",
+    "uranium/50"
+  ],
+  "category": "turret",
+  "research": "quartz-kiln"
+}

@@ -1,0 +1,12 @@
+{
+  "type" : "material"
+  "name" : "Uraninite"
+  "description" : "A very radioactive material used in reactors"
+  "color" :1BFF00
+  "flammability" : 0
+  "radioactivity" : 10
+  "explosivness" : 10
+  "hardness" : 4
+  "cost" : 5
+  "alwaysUnlock" : "false"
+}

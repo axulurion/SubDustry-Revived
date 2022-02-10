@@ -1,0 +1,33 @@
+{
+  "type": "genericCrafter",
+  "name": "Experimental Glassworks Mk II"
+  "description": "Second tier of the experimental glassworks, produces metaglass with a more efficient process than the Mk Is do."
+  "itemCapacity": 12,
+  "health": 200,
+  "size": 3,
+  "category": "crafting",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 60,
+  "consumes": {
+    "power": 1.5,
+    "items": {
+      "items": [
+        "sand/4"
+      ]
+    },
+    "liquid": {
+      "liquid": "slag",
+      "amount": 0.15
+    }
+  },
+  "category": "crafting",
+  "requirements": [
+    "copper/300",
+    "lead/250",
+    "metaglass/125"
+  ],
+  "outputItem": "metaglass/4",
+  "craftEffect": "smokeCloud",
+  "research": "ex-glassworks-mki"
+}

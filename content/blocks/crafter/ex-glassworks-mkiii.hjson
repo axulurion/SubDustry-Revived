@@ -1,0 +1,33 @@
+{
+  "type": "genericCrafter",
+  "name": "Experimental Glassworks Mk III"
+  "description": "Third tier of the experimental glassworks, our R&D team is really proud if this one."
+  "itemCapacity": 20,
+  "health": 250,
+  "size": 3,
+  "category": "crafting",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 52,
+  "consumes": {
+    "power": 0.75,
+    "items": {
+      "items": [
+        "sand/1"
+      ]
+    },
+    "liquid": {
+      "liquid": "slag",
+      "amount": 0.1
+    }
+  },
+  "category": "crafting",
+  "requirements": [
+    "copper/700",
+    "lead/475",
+    "metaglass/350"
+  ],
+  "outputItem": "metaglass/3",
+  "craftEffect": "smokeCloud",
+  "research": "ex-glassworks-mkii"
+}
