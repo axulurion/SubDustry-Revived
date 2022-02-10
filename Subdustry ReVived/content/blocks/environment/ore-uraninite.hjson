@@ -1,6 +1,0 @@
-{
-  "type": "OreBlock",
-  "itemDrop": "uraninite",
-  "playerUnmineable": true,
-  "oreDefault": true
-}
