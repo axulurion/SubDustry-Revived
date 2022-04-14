@@ -1,0 +1,50 @@
+{
+  "type": "ItemTurret",
+  "name": "Unit 235",
+  "size": 3,
+  "health": 200,
+  "range": 500,
+  "reloadTime": 1,
+  "shootSound": "missile",
+  "ammoTypes": {
+    "uraninite": {
+      "type": "MissileBulletType",
+      "width": 10,
+      "height": 30,
+      "hitSize": 20,
+      "hitSound": "artillery",
+      "speed": 10,
+      "damage": 150,
+      "splashDamage": 3750,
+      "ammoMultiplier": 10,
+      "lifetime": 300,
+      "homingRange": 360,
+      "homingPower": 1,
+      "weaveScale": 10,
+      "weaveMag": 5
+    }
+    "uranium": {
+      "type": "MissileBulletType",
+      "width": 10,
+      "height": 30,
+      "hitSize": 20,
+      "hitSound": "artillery",
+      "speed": 10,
+      "damage": 150,
+      "splashDamage": 3750,
+      "ammoMultiplier": 10,
+      "lifetime": 300,
+      "homingRange": 360,
+      "homingPower": 1,
+      "weaveScale": 10,
+      "weaveMag": 5
+    }
+  }
+  "research": "rail-mki",
+  "requirements": [
+    "lead/750",
+    "titanium/625",
+    "plasteel/500",
+    "enameled-glass/475",
+  ]
+}
