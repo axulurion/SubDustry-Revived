@@ -4,18 +4,19 @@
   "description": "The FLARE Railgun is the first of its kind. It uses a ton of energy to shoot out a projectile at high speeds, it's limited only by the amount of power that can be delivered at once.",
   "health": 270,
   "size": 3,
+  "category": "turret",
   "reloadTime": 1,
   "range": 625,
   "powerUse": 1,
   "shootType": {
     "type": "LaserBoltBulletType",
     "damage": 1500,
-    "speed": 10,
-    "lifetime": 45,
+    "speed": 25,
+    "lifetime": 54,
     "frontColor": "ffffff,",
     "backColor": "90d6ff,",
-    "width": 20,
-    "height": 100
+    "width": 1,
+    "height": 25
   },
   "research": "james",
   "requirements": [
