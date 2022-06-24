@@ -1,6 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Unit 235",
+  "category": "turret",
   "size": 3,
   "health": 200,
   "range": 500,
